@@ -3,7 +3,7 @@ package polymerphisim;
 public class TestMain2 {
 
 	public static void main(String[] args) {
-		
+	
 		Animal a = new Dog();
 		test(a);
 		a= new Cat();
