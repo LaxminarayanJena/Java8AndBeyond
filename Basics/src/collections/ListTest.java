@@ -14,6 +14,11 @@ public class ListTest {
 		Dog d= new Dog();
 		Cat c = new Cat();
 		List<Animal> l = new ArrayList<Animal>();
+		List<Integer> l1= new ArrayList<Integer>();
+		l1.add(1);
+		int no= 50;
+		Integer refno= no;//boxing  //convert integer to intger reference type
+		int refno1= refno;//unboxing assigning reference to primitive type
 		l.add(d);
 		l.add(c);
 	}
