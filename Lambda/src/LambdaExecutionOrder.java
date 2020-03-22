@@ -3,6 +3,8 @@ public class LambdaExecutionOrder {
 
 	public static void main(String[] args) {
 		System.out.println("starting execution");
+		
+		//giving behaviour
 		test(n ->
 		{
 			System.out.println("inside lambda");

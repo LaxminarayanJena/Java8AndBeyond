@@ -1,0 +1,4 @@
+Lambda is an anonymous function that is declared without any name.Assigned to a variable
+(x)-x*x;
+it is implemented by creatiing a functional interface @Functionalnterface
+functional interface are single abstract method interfaces
