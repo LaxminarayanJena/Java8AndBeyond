@@ -36,6 +36,13 @@ public class DriverTest {
 		elements.removeIf(isBlank);
 		System.out.println("After::"+elements.size());
 		elements.forEach(e -> System.out.println(e.getText()));
+		
+		
+		System.out.println("//////////////////");
+		
+		Predicate<WebElement> hasS=(e)->e.getText().toLowerCase().contains("s");
+		elements.removeIf(hasS);
+		elements.forEach(e -> System.out.println(e.getText()));
 	}
 	
 	@AfterTest
