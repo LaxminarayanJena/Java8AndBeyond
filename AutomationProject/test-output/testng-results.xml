@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15695" started-at="2020-03-22T17:47:33Z" finished-at="2020-03-22T17:47:48Z">
+  <suite name="Default suite" duration-ms="8649" started-at="2020-03-24T21:07:30Z" finished-at="2020-03-24T21:07:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15695" started-at="2020-03-22T17:47:33Z" finished-at="2020-03-22T17:47:48Z">
+    <test name="Default test" duration-ms="8649" started-at="2020-03-24T21:07:30Z" finished-at="2020-03-24T21:07:39Z">
       <class name="DriverTest">
-        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:DriverTest@8bd1b6a]" name="setDriver" is-config="true" duration-ms="10913" started-at="2020-03-22T17:47:33Z" finished-at="2020-03-22T17:47:44Z">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:DriverTest@46d56d67]" name="setDriver" is-config="true" duration-ms="3630" started-at="2020-03-24T21:07:30Z" finished-at="2020-03-24T21:07:34Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="googleTest()[pri:0, instance:DriverTest@8bd1b6a]" name="googleTest" duration-ms="3885" started-at="2020-03-22T17:47:44Z" finished-at="2020-03-22T17:47:48Z">
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:DriverTest@46d56d67]" name="googleTest" duration-ms="4301" started-at="2020-03-24T21:07:34Z" finished-at="2020-03-24T21:07:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:DriverTest@8bd1b6a]" name="quitDriver" is-config="true" duration-ms="860" started-at="2020-03-22T17:47:48Z" finished-at="2020-03-22T17:47:48Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:DriverTest@46d56d67]" name="quitDriver" is-config="true" duration-ms="671" started-at="2020-03-24T21:07:38Z" finished-at="2020-03-24T21:07:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
