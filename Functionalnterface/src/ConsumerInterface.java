@@ -1,10 +1,10 @@
-package rough;
+
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class ConsumerTestMain {
+public class ConsumerInterface {
 
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<>();

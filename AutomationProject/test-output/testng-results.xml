@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7049" started-at="2020-03-24T22:21:07Z" finished-at="2020-03-24T22:21:14Z">
+  <suite name="Default suite" duration-ms="8916" started-at="2020-03-24T22:50:51Z" finished-at="2020-03-24T22:51:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7049" started-at="2020-03-24T22:21:07Z" finished-at="2020-03-24T22:21:14Z">
-      <class name="DriverTest">
-        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:DriverTest@46d56d67]" name="setDriver" is-config="true" duration-ms="3539" started-at="2020-03-24T22:21:07Z" finished-at="2020-03-24T22:21:11Z">
+    <test name="Default test" duration-ms="8916" started-at="2020-03-24T22:50:51Z" finished-at="2020-03-24T22:51:00Z">
+      <class name="DriverTest2">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:DriverTest2@46d56d67]" name="setDriver" is-config="true" duration-ms="3537" started-at="2020-03-24T22:50:51Z" finished-at="2020-03-24T22:50:54Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="googleTest()[pri:0, instance:DriverTest@46d56d67]" name="googleTest" duration-ms="2683" started-at="2020-03-24T22:21:11Z" finished-at="2020-03-24T22:21:14Z">
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:DriverTest2@46d56d67]" name="googleTest" duration-ms="4640" started-at="2020-03-24T22:50:55Z" finished-at="2020-03-24T22:50:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:DriverTest@46d56d67]" name="quitDriver" is-config="true" duration-ms="805" started-at="2020-03-24T22:21:14Z" finished-at="2020-03-24T22:21:14Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:DriverTest2@46d56d67]" name="quitDriver" is-config="true" duration-ms="719" started-at="2020-03-24T22:50:59Z" finished-at="2020-03-24T22:51:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- DriverTest -->
+      </class> <!-- DriverTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
