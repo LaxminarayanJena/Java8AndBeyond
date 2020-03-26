@@ -18,3 +18,6 @@ public class FunctionInterface {
 	}
 
 }
+
+//and then a.andthen(b) => a->b
+//compose a.compose(b) => b.>a
