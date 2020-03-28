@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8916" started-at="2020-03-24T22:50:51Z" finished-at="2020-03-24T22:51:00Z">
+  <suite name="Default suite" duration-ms="25418" started-at="2020-03-28T09:13:48Z" finished-at="2020-03-28T09:14:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8916" started-at="2020-03-24T22:50:51Z" finished-at="2020-03-24T22:51:00Z">
-      <class name="DriverTest2">
-        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:DriverTest2@46d56d67]" name="setDriver" is-config="true" duration-ms="3537" started-at="2020-03-24T22:50:51Z" finished-at="2020-03-24T22:50:54Z">
+    <test name="Default test" duration-ms="25418" started-at="2020-03-28T09:13:48Z" finished-at="2020-03-28T09:14:13Z">
+      <class name="CheckBoxSelection">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:CheckBoxSelection@8bd1b6a]" name="setDriver" is-config="true" duration-ms="9574" started-at="2020-03-28T09:13:48Z" finished-at="2020-03-28T09:13:57Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="googleTest()[pri:0, instance:DriverTest2@46d56d67]" name="googleTest" duration-ms="4640" started-at="2020-03-24T22:50:55Z" finished-at="2020-03-24T22:50:59Z">
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:CheckBoxSelection@8bd1b6a]" name="googleTest" duration-ms="15130" started-at="2020-03-28T09:13:57Z" finished-at="2020-03-28T09:14:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:DriverTest2@46d56d67]" name="quitDriver" is-config="true" duration-ms="719" started-at="2020-03-24T22:50:59Z" finished-at="2020-03-24T22:51:00Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:CheckBoxSelection@8bd1b6a]" name="quitDriver" is-config="true" duration-ms="685" started-at="2020-03-28T09:14:12Z" finished-at="2020-03-28T09:14:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- DriverTest2 -->
+      </class> <!-- CheckBoxSelection -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
