@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13379" started-at="2020-03-29T06:54:03Z" finished-at="2020-03-29T06:54:16Z">
+  <suite name="Default suite" duration-ms="14725" started-at="2020-03-29T18:30:14Z" finished-at="2020-03-29T18:30:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13379" started-at="2020-03-29T06:54:03Z" finished-at="2020-03-29T06:54:16Z">
-      <class name="CheckBoxSelection">
-        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:CheckBoxSelection@59fa1d9b]" name="setDriver" is-config="true" duration-ms="3633" started-at="2020-03-29T06:54:03Z" finished-at="2020-03-29T06:54:06Z">
+    <test name="Default test" duration-ms="14725" started-at="2020-03-29T18:30:14Z" finished-at="2020-03-29T18:30:29Z">
+      <class name="BrokenLink">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:BrokenLink@8bd1b6a]" name="setDriver" is-config="true" duration-ms="7656" started-at="2020-03-29T18:30:14Z" finished-at="2020-03-29T18:30:22Z">
           <params>
             <param index="0">
               <value>
@@ -18,33 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:CheckBoxSelection@59fa1d9b]" name="googleTest" duration-ms="5308" started-at="2020-03-29T06:54:06Z" data-provider="gender" finished-at="2020-03-29T06:54:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[male]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:BrokenLink@8bd1b6a]" name="googleTest" duration-ms="6342" started-at="2020-03-29T18:30:22Z" finished-at="2020-03-29T18:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->
-        <test-method status="PASS" signature="googleTest(java.lang.String)[pri:0, instance:CheckBoxSelection@59fa1d9b]" name="googleTest" duration-ms="3745" started-at="2020-03-29T06:54:12Z" data-provider="gender" finished-at="2020-03-29T06:54:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[female]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:CheckBoxSelection@59fa1d9b]" name="quitDriver" is-config="true" duration-ms="662" started-at="2020-03-29T06:54:15Z" finished-at="2020-03-29T06:54:16Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:BrokenLink@8bd1b6a]" name="quitDriver" is-config="true" duration-ms="708" started-at="2020-03-29T18:30:28Z" finished-at="2020-03-29T18:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- CheckBoxSelection -->
+      </class> <!-- BrokenLink -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
