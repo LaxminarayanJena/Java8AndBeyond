@@ -17,8 +17,9 @@ import com.google.common.util.concurrent.Uninterruptibles;
 
 import pages.TableDemoPage;
 import supplier.DriverFactory;
+import supplier.SearchCriteriaFactoryBDD;
 
-public class CheckBoxSelectionTest {
+public class CheckBoxSelectionBDDTest {
 	
 	private WebDriver driver;
 	private TableDemoPage tableDemoPage;
@@ -47,19 +48,16 @@ public class CheckBoxSelectionTest {
 	@DataProvider(name="criteriaProvider")
 	public Object[] testdata()
 	{
-		Predicate<List<WebElement>> allMale=(l) ->l.get(1).getText().equalsIgnoreCase("male");
-		Predicate<List<WebElement>> allFemale=(l) ->l.get(1).getText().equalsIgnoreCase("female");
-		Predicate<List<WebElement>> allGender=allMale.or(allFemale);
-		Predicate<List<WebElement>> allAU=(l) ->l.get(2).getText().equalsIgnoreCase("AU");
-		Predicate<List<WebElement>> allFemaleAU=allFemale.and(allAU);
+		
 		
 		return new Object[]
 				{
-						//allMale,
-						//allFemale,
-						//allGender,
-						allAU,
-						allFemaleAU
+						SearchCriteriaFactoryBDD.getCriteria("allMale"),
+						SearchCriteriaFactoryBDD.getCriteria("allFemale"),
+						SearchCriteriaFactoryBDD.getCriteria("allGender"),
+						SearchCriteriaFactoryBDD.getCriteria("allAU"),
+						SearchCriteriaFactoryBDD.getCriteria("allFemaleAU"),
+						
 				};
 				
 	}

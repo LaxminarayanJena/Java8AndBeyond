@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20501" started-at="2020-03-29T08:06:24Z" finished-at="2020-03-29T08:06:45Z">
+  <suite name="Default suite" duration-ms="29253" started-at="2020-03-29T10:34:54Z" finished-at="2020-03-29T10:35:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20501" started-at="2020-03-29T08:06:24Z" finished-at="2020-03-29T08:06:45Z">
-      <class name="test.CheckBoxSelectionTest">
-        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:test.CheckBoxSelectionTest@2b98378d]" name="setDriver" is-config="true" duration-ms="3489" started-at="2020-03-29T08:06:24Z" finished-at="2020-03-29T08:06:28Z">
+    <test name="Default test" duration-ms="29253" started-at="2020-03-29T10:34:54Z" finished-at="2020-03-29T10:35:24Z">
+      <class name="test.CheckBoxSelectionBDDTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:test.CheckBoxSelectionBDDTest@2b98378d]" name="setDriver" is-config="true" duration-ms="3381" started-at="2020-03-29T10:34:54Z" finished-at="2020-03-29T10:34:58Z">
           <params>
             <param index="0">
               <value>
@@ -18,44 +18,66 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="tableRowTest(java.util.function.Predicate)[pri:0, instance:test.CheckBoxSelectionTest@2b98378d]" name="tableRowTest" duration-ms="6587" started-at="2020-03-29T08:06:28Z" data-provider="criteriaProvider" finished-at="2020-03-29T08:06:34Z">
+        <test-method status="PASS" signature="tableRowTest(java.util.function.Predicate)[pri:0, instance:test.CheckBoxSelectionBDDTest@2b98378d]" name="tableRowTest" duration-ms="6173" started-at="2020-03-29T10:34:58Z" data-provider="criteriaProvider" finished-at="2020-03-29T10:35:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test.CheckBoxSelectionTest$$Lambda$208/150138649@7161d8d1]]>
+                <![CDATA[supplier.SearchCriteriaFactoryBDD$$Lambda$208/1191654595@663c9e7a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tableRowTest -->
-        <test-method status="PASS" signature="tableRowTest(java.util.function.Predicate)[pri:0, instance:test.CheckBoxSelectionTest@2b98378d]" name="tableRowTest" duration-ms="4704" started-at="2020-03-29T08:06:34Z" data-provider="criteriaProvider" finished-at="2020-03-29T08:06:39Z">
+        <test-method status="PASS" signature="tableRowTest(java.util.function.Predicate)[pri:0, instance:test.CheckBoxSelectionBDDTest@2b98378d]" name="tableRowTest" duration-ms="4716" started-at="2020-03-29T10:35:04Z" data-provider="criteriaProvider" finished-at="2020-03-29T10:35:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test.CheckBoxSelectionTest$$Lambda$209/1191654595@5038d0b5]]>
+                <![CDATA[supplier.SearchCriteriaFactoryBDD$$Lambda$209/754177595@6bb4dd34]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tableRowTest -->
-        <test-method status="PASS" signature="tableRowTest(java.util.function.Predicate)[pri:0, instance:test.CheckBoxSelectionTest@2b98378d]" name="tableRowTest" duration-ms="5041" started-at="2020-03-29T08:06:39Z" data-provider="criteriaProvider" finished-at="2020-03-29T08:06:44Z">
+        <test-method status="PASS" signature="tableRowTest(java.util.function.Predicate)[pri:0, instance:test.CheckBoxSelectionBDDTest@2b98378d]" name="tableRowTest" duration-ms="5111" started-at="2020-03-29T10:35:09Z" data-provider="criteriaProvider" finished-at="2020-03-29T10:35:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[java.util.function.Predicate$$Lambda$13/1016925085@45ac5f9b]]>
+                <![CDATA[java.util.function.Predicate$$Lambda$13/1016925085@68034211]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tableRowTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.CheckBoxSelectionTest@2b98378d]" name="quitDriver" is-config="true" duration-ms="647" started-at="2020-03-29T08:06:44Z" finished-at="2020-03-29T08:06:45Z">
+        <test-method status="PASS" signature="tableRowTest(java.util.function.Predicate)[pri:0, instance:test.CheckBoxSelectionBDDTest@2b98378d]" name="tableRowTest" duration-ms="4599" started-at="2020-03-29T10:35:14Z" data-provider="criteriaProvider" finished-at="2020-03-29T10:35:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[supplier.SearchCriteriaFactoryBDD$$Lambda$210/1987375157@29526c05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableRowTest -->
+        <test-method status="PASS" signature="tableRowTest(java.util.function.Predicate)[pri:0, instance:test.CheckBoxSelectionBDDTest@2b98378d]" name="tableRowTest" duration-ms="4583" started-at="2020-03-29T10:35:18Z" data-provider="criteriaProvider" finished-at="2020-03-29T10:35:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java.util.function.Predicate$$Lambda$211/1776374725@253d9f73]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableRowTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.CheckBoxSelectionBDDTest@2b98378d]" name="quitDriver" is-config="true" duration-ms="642" started-at="2020-03-29T10:35:23Z" finished-at="2020-03-29T10:35:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- test.CheckBoxSelectionTest -->
+      </class> <!-- test.CheckBoxSelectionBDDTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
