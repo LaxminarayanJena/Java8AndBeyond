@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19501" started-at="2020-03-29T07:31:59Z" finished-at="2020-03-29T07:32:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19501" started-at="2020-03-29T07:31:59Z" finished-at="2020-03-29T07:32:19Z">
+      <class name="test.CheckBoxSelectionTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:test.CheckBoxSelectionTest@2b98378d]" name="setDriver" is-config="true" duration-ms="3632" started-at="2020-03-29T07:31:59Z" finished-at="2020-03-29T07:32:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="tableRowTest(java.lang.String)[pri:0, instance:test.CheckBoxSelectionTest@2b98378d]" name="tableRowTest" duration-ms="8383" started-at="2020-03-29T07:32:03Z" data-provider="gender" finished-at="2020-03-29T07:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableRowTest -->
+        <test-method status="PASS" signature="tableRowTest(java.lang.String)[pri:0, instance:test.CheckBoxSelectionTest@2b98378d]" name="tableRowTest" duration-ms="6775" started-at="2020-03-29T07:32:11Z" data-provider="gender" finished-at="2020-03-29T07:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableRowTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.CheckBoxSelectionTest@2b98378d]" name="quitDriver" is-config="true" duration-ms="685" started-at="2020-03-29T07:32:18Z" finished-at="2020-03-29T07:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- test.CheckBoxSelectionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
