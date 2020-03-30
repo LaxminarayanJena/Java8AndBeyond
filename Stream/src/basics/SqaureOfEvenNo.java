@@ -3,6 +3,8 @@ package basics;
 import java.util.ArrayList;
 import java.util.List;
 
+//A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result. The features of Java stream are – A stream is not a data structure instead it takes input from the Collections, Arrays or I/O channels.
+
 public class SqaureOfEvenNo {
 
 	public static void main(String[] args) {
