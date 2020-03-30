@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
@@ -18,19 +20,25 @@ public class BrokenLink {
 	public void setDriver(@Optional("chrome")String browser)
 	{
 		this.driver=DriverFactory.getDriver(browser);
-
+       
 }
 	@Test
 	public void BrokenLinkTest()
 	{
+		
+		System.out.println("Before::"+LocalDateTime.now());
+		
 		this.driver.get("https://the-internet.herokuapp.com/broken_images");
 		this.driver.findElements(By.xpath("//*[@src]"))
 		.stream()
+		.parallel()
 		.map(e->e.getAttribute("src"))
 		.filter(src->LinkUtil.getResponseCode(src)!=200)
 		.forEach(src->{
 			System.out.println(LinkUtil.getResponseCode(src)+ "::"+ src);
 		});
+		
+		System.out.println("After::"+LocalDateTime.now());
 	}
 	
 	@AfterTest

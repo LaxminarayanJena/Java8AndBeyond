@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17811" started-at="2020-03-30T04:00:27Z" finished-at="2020-03-30T04:00:45Z">
+  <suite name="Default suite" duration-ms="85371" started-at="2020-03-30T05:23:28Z" finished-at="2020-03-30T05:24:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17811" started-at="2020-03-30T04:00:27Z" finished-at="2020-03-30T04:00:45Z">
+    <test name="Default test" duration-ms="85371" started-at="2020-03-30T05:23:28Z" finished-at="2020-03-30T05:24:53Z">
       <class name="BrokenLink">
-        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:BrokenLink@46d56d67]" name="setDriver" is-config="true" duration-ms="3421" started-at="2020-03-30T04:00:27Z" finished-at="2020-03-30T04:00:31Z">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:BrokenLink@46d56d67]" name="setDriver" is-config="true" duration-ms="3578" started-at="2020-03-30T05:23:28Z" finished-at="2020-03-30T05:23:32Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="BrokenLinkTest()[pri:0, instance:BrokenLink@46d56d67]" name="BrokenLinkTest" duration-ms="13688" started-at="2020-03-30T04:00:31Z" finished-at="2020-03-30T04:00:44Z">
+        <test-method status="PASS" signature="BrokenLinkTest()[pri:0, instance:BrokenLink@46d56d67]" name="BrokenLinkTest" duration-ms="81097" started-at="2020-03-30T05:23:32Z" finished-at="2020-03-30T05:24:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrokenLinkTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:BrokenLink@46d56d67]" name="quitDriver" is-config="true" duration-ms="670" started-at="2020-03-30T04:00:44Z" finished-at="2020-03-30T04:00:45Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:BrokenLink@46d56d67]" name="quitDriver" is-config="true" duration-ms="670" started-at="2020-03-30T05:24:53Z" finished-at="2020-03-30T05:24:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
