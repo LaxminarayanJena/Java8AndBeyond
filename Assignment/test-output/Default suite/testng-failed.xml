@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.HoverableDropDownTest">
+      <class name="tests.PaymentScreenTest">
         <methods>
-          <include name="quitDriver"/>
+          <include name="paymentScreenTest" invocation-numbers="0 2"/>
           <include name="setDriver"/>
-          <include name="dropDownTest" invocation-numbers="1"/>
+          <include name="quitDriver"/>
         </methods>
-      </class> <!-- tests.HoverableDropDownTest -->
+      </class> <!-- tests.PaymentScreenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
