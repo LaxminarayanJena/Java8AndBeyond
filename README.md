@@ -1,3 +1,4 @@
+### Lambda Expression
 A Lambda expression (or function) is an anonymous function, i.e., a function with no name and any identifier. </br>
 		(parameters) -> expression
 
@@ -39,4 +40,4 @@ A Lambda expression (or function) is an anonymous function, i.e., a function wit
 		});
     
     ```
-		
+
