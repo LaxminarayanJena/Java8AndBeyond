@@ -48,6 +48,7 @@ interface EvenOdd {
 	void check(int a);
 	
 	//single abstract method
+	//static and default method with body allowed
 	
 }
 
