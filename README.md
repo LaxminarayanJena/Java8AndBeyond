@@ -39,5 +39,50 @@ A Lambda expression (or function) is an anonymous function, i.e., a function wit
 			System.out.println(p);
 		});
     
-    ```
+```
+### Functional Programming
+ permit exactly one abstract method inside them. 
+```
+@FunctionalInterface
+interface EvenOdd {
+	void check(int a);
+	
+	//single abstract method
+	
+}
 
+public class LambdaExample2 {
+	public static void main(String[] args) {
+
+		EvenOdd evenOdd = (int a) -> {
+			if (a % 2 == 0) {
+				System.out.println("Number " + a + " is even.");
+			} else {
+				System.out.println("Number " + a + " is odd.");
+			}
+		};
+
+		evenOdd.check(8); //even
+	//-------------------------------------------	
+		
+		EvenOdd square = (int a) -> {
+			System.out.println(a*2);
+		};
+		
+		square.check(5); //10
+		//-------------------------------------------		
+		
+		EvenOdd displayno = (int a) -> {
+			for(int i=0; i<=a;i++)
+			{
+				System.out.print(i +",");
+			}
+		};
+		
+		displayno.check(10); //1,2,3....10
+		
+		
+		
+	}
+}
+```
