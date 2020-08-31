@@ -89,3 +89,7 @@ public class LambdaExample2 {
 ```
 ### Stream
 A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result.
+```
+   List<Integer> list = Arrays.asList(3, 6, 9, 12, 15); 
+   list.stream().map(number -> number * 3).forEach(System.out::println); 
+```
