@@ -92,4 +92,10 @@ A stream is a sequence of objects that supports various methods which can be pip
 ```
    List<Integer> list = Arrays.asList(3, 6, 9, 12, 15); 
    list.stream().map(number -> number * 3).forEach(System.out::println); 
+   
+     List<Integer> even = list.stream()
+                         .map(s -> Integer.valueOf(s))
+                         .filter(number -> number % 2 == 0)
+                         .collect(Collectors.toList());
+      System.out.println( even); //[6, 12]
 ```
